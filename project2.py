@@ -27,7 +27,6 @@ Håvard og Tobias tar innloggingsbiten,
 Edward og Anders tar spørreskjemet.
 """
 
-
-
 def login_info():
   return 
+
