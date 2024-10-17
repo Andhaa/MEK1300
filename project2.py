@@ -17,6 +17,13 @@ For hvert feil svar skal programmet vise brukerens svar og det riktige svaret.
 
 Hint: Bruk lister for å lagre spørsmål og svar.
 Hint2: Bruk funksjoner for å holde oversikt i koden.
+
+Forslag til oppgavefordeling: 
+Slik jeg ser kan oppgaven deles i to. 
+En del som handler om innlogging og den andre om selve spørreskjemaet. 
+
+Mitt forslag er at vi deler dette mellom oss. Håvard og Tobias tar innloggingsbiten, 
+Edward og Anders tar spørreskjemet.
 """
 
 
