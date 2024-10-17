@@ -25,8 +25,21 @@ En del som handler om innlogging og den andre om selve spørreskjemaet.
 Mitt forslag er at vi deler dette mellom oss:
 Håvard og Tobias tar innloggingsbiten, 
 Edward og Anders tar spørreskjemet.
+Dere står naturligvis fritt til å lage andre funksjoner eksempelvis bryte de opp i mindre funksjoner osv, 
+enn det jeg har gjort, pass på at det er innenfor oppgaven. 
+Se eksempel på psuedokode i quiz()funksjonen under. 
 """
 
-def login_info():
+def login_info(): # Håvard og Tobias
   return 
 
+def quiz(): #Edward og Anders
+  #Psuedokode: 
+  # (for hvert spørsmål)Hent et spørsmål fra listen over spørsmål.
+  # Presenter dette og valgalternativ til brukeren.
+  # Ta input fra brukeren
+  # Lagre inputet i en egen liste
+  # når det ikke lengre er flere spørsmål 
+  # sjekk hva som er riktig og ikke
+  # For hvert spørsmål som er svart FEIL, print dette, sammen med riktig svar. 
+  return
