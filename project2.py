@@ -22,7 +22,8 @@ Forslag til oppgavefordeling:
 Slik jeg ser kan oppgaven deles i to. 
 En del som handler om innlogging og den andre om selve spørreskjemaet. 
 
-Mitt forslag er at vi deler dette mellom oss. Håvard og Tobias tar innloggingsbiten, 
+Mitt forslag er at vi deler dette mellom oss:
+Håvard og Tobias tar innloggingsbiten, 
 Edward og Anders tar spørreskjemet.
 """
 
