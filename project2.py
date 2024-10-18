@@ -44,7 +44,8 @@ def quiz(): #Edward og Anders
   # For hvert spørsmål som er svart FEIL, print dette, sammen med riktig svar. 
   #TODO: (x) formater lister og lag en loop for spørsmål og svaralternativ.
   #TODO: () en funksjon for å lage tilfeldig rekkefølge på svaralternativene for hvert spørsmål? 
-  #TODO: () funksjon som tar input fra brukeren, sjekker at dette er en bokstav i listen over tilatte bokstaver og returnerer valgt bokstav
+  #TODO: () funksjon som tar input fra brukeren, sjekker at dette er en bokstav i listen over tilatte bokstaver 
+  #         og returnerer en int basert på hvilket spørsmål som er stilt og hvilket svaralternativ. Eks, svaralternativ D på spørsmål 4 skal gi choises[15]
   #TODO: 
  
   #Liste over alle spørsmål: 
@@ -73,7 +74,7 @@ def quiz(): #Edward og Anders
   
 
   
-  #loop gjennom alle spørsmål og svaralternativer:
+  #Hovedloop for å gjennom alle spørsmål og svaralternativer:
   #TODO: Lag en funksjon for å gjøre slik at svaralternativene kommer i en tilfeldig rekkefølge?  
   start_pos = 0
   for i in range(len(questions)):
