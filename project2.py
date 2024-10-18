@@ -44,6 +44,8 @@ def quiz(): #Edward og Anders
   # For hvert spørsmål som er svart FEIL, print dette, sammen med riktig svar. 
   #TODO: (x) formater lister og lag en loop for spørsmål og svaralternativ.
   #TODO: () en funksjon for å lage tilfeldig rekkefølge på svaralternativene for hvert spørsmål? 
+  #TODO: () funksjon som tar input fra brukeren, sjekker at dette er en bokstav i listen over tilatte bokstaver og returnerer valgt bokstav
+  #TODO: 
  
   #Liste over alle spørsmål: 
   questions = ["What is the capital of Norway?", 
@@ -75,12 +77,12 @@ def quiz(): #Edward og Anders
   #TODO: Lag en funksjon for å gjøre slik at svaralternativene kommer i en tilfeldig rekkefølge?  
   start_pos = 0
   for i in range(len(questions)):
-    print("Q%i:"%i , questions[i])
-    teller = 0 
-    for t in range(start_pos, start_pos+4):
+    print("Q%i:"%i , questions[i])                  #Ser slik ut: "Q8: Where in Norway is Stavanger?"
+    teller = 0                                      #For å kunne loope gjennom listen av bokstaver laget jeg en ny teller her, denne vil gå fra 0-3, i loopen under
+    for t in range(start_pos, start_pos+4):         #Her looper vi gjennom listen av svaralternativer. vi starter på 0 og slutter på 0+4
       print (letters[teller], choises[t])
       teller = teller+1
-    start_pos = start_pos + 4
+    start_pos = start_pos + 4                       #Gjør klar for neste iterasjon av svaralternativer ved å forskyve variablen med 4
   return
 
 
