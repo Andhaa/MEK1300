@@ -127,3 +127,27 @@ def user_input():
 def sjekk_liste(liste1, liste2):
   return
 
+def check_lists(liste1, liste2):
+    if len(liste1) != len(liste2):
+        print("Listene har ulik lengde.")
+        return False
+    
+    match_count = 0
+    mismatch_count = 0
+    
+   
+    
+    for i in range(len(liste1)):
+        if liste1[i] == liste2[i]:
+            match_count+= 1
+        else:
+            mismatch_count += 1 
+            print(f"Feil svar i Oppgave {i+1}: Svaret er {liste1[i]}, ditt svar var {liste2[i]}")
+        
+    print (f"Antall riktige svar: {match_count}")
+    print(f"Antall feil svar: {mismatch_count}")
+    
+    return match_count == len(liste1)
+main(questions,choises)
+print(check_lists(choises_correct, user_answers))
+
