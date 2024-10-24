@@ -55,11 +55,11 @@ def main(questions, choices):
 
 def user_input():
   ''' Funksjonen kjører så lenge svaret ikke er a,b,c eller d. Returnerer int fra 0-3.'''
-  svar = input("Answer:")
-  while svar.capitalize() not in letters: #Henvisning til listen som inneholder "A,B,C,D"
+  svar = input("Answer:").capitalize()
+  while svar not in letters: #Henvisning til listen som inneholder "A,B,C,D"
     print("Please input your response with a character A, B, C or D")
     svar = input("Answer:")
-  match svar.capitalize():
+  match svar:
     case "A": return 0
     case "B": return 1
     case "C": return 2
